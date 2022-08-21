@@ -9,21 +9,23 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/crew">
-					<Route index element={<Crew />} />
-					<Route path=":id" element={<Crew />} />
-				</Route>
-				<Route path="/destination">
-					<Route index element={<Destination />} />
-					<Route path=":id" element={<Destination />} />
-				</Route>
-				<Route path="/technology">
-					<Route index element={<Technology />} />
-					<Route path=":id" element={<Technology />} />
-				</Route>
-			</Routes>
+			<main>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/crew">
+						<Route index element={<Crew />} />
+						<Route path=":id" element={<Crew />} />
+					</Route>
+					<Route path="/destination">
+						<Route index element={<Destination />} />
+						<Route path=":id" element={<Destination />} />
+					</Route>
+					<Route path="/technology">
+						<Route index element={<Technology />} />
+						<Route path=":id" element={<Technology />} />
+					</Route>
+				</Routes>
+			</main>
 		</>
 	);
 }

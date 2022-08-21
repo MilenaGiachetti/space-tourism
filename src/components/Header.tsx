@@ -1,4 +1,4 @@
-import HeaderLink from '@components/HeaderLink';
+import HeaderLink from "@components/HeaderLink";
 
 const Header = () => {
 	return (
