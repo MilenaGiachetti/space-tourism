@@ -1,0 +1,49 @@
+h1 {
+	font: {
+		family: $font;
+		size: $font-size-h1;
+	}
+}
+
+h2 {
+	font: {
+		family: $font;
+		size: $font-size-h2;
+	}
+}
+
+h3 {
+	font: {
+		family: $font;
+		size: $font-size-h3;
+	}
+}
+
+h4 {
+	font: {
+		family: $font;
+		size: $font-size-h4;
+	}
+}
+
+
+h5 {
+	font: {
+		family: $font-secondary;
+		size: $font-size-h5;
+	}
+}
+
+a {
+	font: {
+		family: $font-secondary;
+		size: $font-size-nav;
+	}
+}
+
+p {
+	font: {
+		family: $font-terciary;
+		size: $font-size-body;
+	}
+}
